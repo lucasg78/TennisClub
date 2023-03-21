@@ -5,8 +5,14 @@
 <head>
     <title>{% block title %}{% endblock %}</title>
 </head>
-<link rel="stylesheet" href="{% static 'myfirst.css' %}">
+<link rel="stylesheet" href="{% static 'mystyles.css' %}">
+
 <body>
+
+    <div class="topnav">
+        <a href="/">HOME</a> |
+        <a href="/members">MEMBERS</a>
+    </div>
 
     {% block content %}
     {% endblock %}
